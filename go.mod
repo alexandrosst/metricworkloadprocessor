@@ -1,8 +1,6 @@
 module github.com/alexandrosst/metricworkloadprocessor
 
-go 1.24
-
-toolchain go1.24.6
+go 1.25
 
 require (
 	go.opentelemetry.io/collector/component v1.39.0
