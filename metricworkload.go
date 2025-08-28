@@ -14,7 +14,7 @@ import (
 
 const typeStr = "metricworkload"
 
-// Only per-item mode is supported for realism
+// Only per-item mode is supported
 type Config struct {
 	LatencyMS       int `mapstructure:"latency_ms"`
 	LatencyJitterMS int `mapstructure:"latency_jitter_ms"`
